@@ -5,6 +5,20 @@
 #
 # Output: 4
 # Explanation: n is 2, and the maximum sum of pairs is 4.
-# Note:
-# n is a positive integer, which is in the range of [1, 10000].
-# All the integers in the array will be in the range of [-10000, 10000].
+
+
+def arrayPairSum(nums):
+    """
+    :type nums: List[int]
+    :rtype: int
+    """
+    nums.sort()
+
+    n = len(nums) // 2
+    sum = 0
+    for i in range(0, len(nums), 2):
+        sum = sum + nums[i]
+    return sum
+
+if __name__ == "__main__":
+    print arrayPairSum([1,2,3,4])

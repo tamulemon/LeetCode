@@ -7,7 +7,7 @@ def hamming_distinct(x, y):
         bi_arr_y = ''
         while leftover > 0:
             digit = leftover % 2
-            bi_arr_y += str(digit)
+            bi_arr_y += str(digit) #theoretically the binary string should be bi_arr_y = str(digit) + bi_arr_y
             leftover = leftover // 2
         return bi_arr_y
     if x < y :
