@@ -20,7 +20,7 @@ def postorder(tree):
 
 
 def isLeftTreeSmallerThanRightTree(minVal, maxVal, tree):
-    if tree == None:
+    if tree is None:
         return True
     # print tree["node"]
     if minVal <= tree["node"] <= maxVal:
@@ -36,3 +36,10 @@ tree2 = {"node": 5, "left": {"node": 3, "left" : {"node": 1, "left":None, "right
 
 print isLeftTreeSmallerThanRightTree(float("-inf"), float("inf"), tree1)
 print isLeftTreeSmallerThanRightTree(float("-inf"), float("inf"), tree2)
+
+
+def maxDepth(root):
+     if not root: # or if root is not None
+         return 0
+
+     return 1 + max(maxDepth(root.left), maxDepth(root.right))

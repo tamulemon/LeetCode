@@ -1,0 +1,10 @@
+c:\users\mchen\documents\c#_practice\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\mchen\documents\c#_practice\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\mchen\documents\c#_practice\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\mchen\documents\c#_practice\c_sharp_practice\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\mchen\documents\c#_practice\c_sharp_practice\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

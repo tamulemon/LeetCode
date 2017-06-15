@@ -1,0 +1,6 @@
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\bin\Debug\c_sharp_practice.exe.config
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\bin\Debug\c_sharp_practice.exe
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\bin\Debug\c_sharp_practice.pdb
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\obj\Debug\c_sharp_practice.csprojResolveAssemblyReference.cache
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\obj\Debug\c_sharp_practice.exe
+c:\users\mchen\documents\c#_practice\c_sharp_practice\c_sharp_practice\obj\Debug\c_sharp_practice.pdb

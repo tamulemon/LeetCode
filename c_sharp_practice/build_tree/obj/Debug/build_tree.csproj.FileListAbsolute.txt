@@ -1,0 +1,6 @@
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\obj\Debug\build_tree.csprojResolveAssemblyReference.cache
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\bin\Debug\build_tree.exe.config
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\bin\Debug\build_tree.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\bin\Debug\build_tree.pdb
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\obj\Debug\build_tree.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\build_tree\obj\Debug\build_tree.pdb

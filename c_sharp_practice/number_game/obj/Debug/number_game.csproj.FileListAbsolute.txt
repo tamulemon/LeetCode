@@ -1,0 +1,6 @@
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\bin\Debug\number_game.exe.config
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\bin\Debug\number_game.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\bin\Debug\number_game.pdb
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\obj\Debug\number_game.exe
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\obj\Debug\number_game.pdb
+C:\Users\mchen\Documents\Docs\job\c_sharp_practice\number_game\obj\Debug\number_game.csprojResolveAssemblyReference.cache

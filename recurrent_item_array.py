@@ -1,4 +1,4 @@
-# with same frequency, will return the first encountered number
+ # with same frequency, will return the first encountered number
 def most_recurrent_item(list):
     dict = {}
     freq = 0
