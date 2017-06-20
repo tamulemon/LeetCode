@@ -11,7 +11,7 @@ def largest_common_factor(num1, num2):
         return num1
     if num1 % num2 ==0:
         return num2
-    for i in range(2, int(math.sqrt(num1)) + 1):
+    for i in range(int(math.sqrt(num1)) + 1, 2, -1):
         if num1 % i == 0 and num2 % i == 0:
             if i > common_factor:
                 common_factor = i
