@@ -42,3 +42,29 @@ int_arr = [3, 2, 4]
 target = 6
 
 print sum_2_number2(int_arr, target)
+
+
+## derived sum_3
+# list[0], sum_2(list[1:]) -- still n2
+
+
+################################
+# if the array is sorted, no duplicated number, and only 1 pair will return target number
+
+# this is similar to merge sort mechanism, using a low and a high pointer
+def sum2sorted(list, target):
+    i = 0
+    j = len(list) - 1
+    while i < j:
+        if list[i] + list[j] > target:
+            j -= 1
+        elif list[i] + list[j] < target:
+            i += 1
+        else:
+            return [i, j]
+    return []
+
+list = [2, 5, 7, 11]
+target = 9
+print '----------------'
+print sum2sorted(list, target)

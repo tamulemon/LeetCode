@@ -24,9 +24,9 @@ def isLeftTreeSmallerThanRightTree(minVal, maxVal, tree):
         return True
     # print tree["node"]
     if minVal <= tree["node"] <= maxVal:
-        if tree["left"] != None:
+        if tree["left"]:
             isLeftTreeSmallerThanRightTree(minVal, tree["node"], tree["left"])
-        if tree["right"] != None:
+        if tree["right"]:
             isLeftTreeSmallerThanRightTree(tree["node"], maxVal, tree["right"])
 
     return False
@@ -43,3 +43,16 @@ def maxDepth(root):
          return 0
 
      return 1 + max(maxDepth(root.left), maxDepth(root.right))
+
+
+def breathFirstTraverse(root):
+    if not root:
+        return
+    currentLevel = []
+    nextLevel = []
+
+    currentLevel.append(root)
+    while currentLevel:
+        for node in currentLevel:
+            nextLevel.extend([node.left, node.right])
+            currentLevel = nextLevel

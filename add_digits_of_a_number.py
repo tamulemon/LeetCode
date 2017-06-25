@@ -10,7 +10,7 @@ Could you do it without any loop/recursion in O(1) runtime?
 
 '''
 
-#recursive
+# loop
 import math
 def addDigits(num):
     while num >= 10:
@@ -24,3 +24,7 @@ def addDigits(num):
 num = 38
 
 print addDigits(num)
+
+
+# the O(1) solution is
+return (n-1) % 9 + 1

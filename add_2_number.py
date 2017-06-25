@@ -5,3 +5,5 @@ Example:
 Given a = 1 and b = 2, return 3.'''
 
 def add2nums(a, b):
+    # bitwise
+    return True
