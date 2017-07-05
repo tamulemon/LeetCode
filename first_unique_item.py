@@ -26,7 +26,9 @@ print operator.xor(97, 98)
 s = "acadbfc"
 print collections.Counter(s)
 
+# or
 def firstUniqChar(s):
-    return 0
-
+    letters = 'abcdefghijklmnopqrstuvwxyz'
+    index = [s.index(l) for l in letters if s.count(l) == 1]
+    return min(index) if len(index) > 0 else -1
 # print firstUniqChar(s)

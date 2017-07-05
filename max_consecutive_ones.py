@@ -12,7 +12,6 @@ def findMaxConsecutiveOnes(nums):
 
     for i in range(len(nums)):
         if nums[i] == 1:
-            start = True
             length += 1
         if (nums[i] == 0) or (i == len(nums) - 1):
             if length > maxLengh:

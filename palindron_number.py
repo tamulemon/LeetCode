@@ -22,7 +22,6 @@ def isPalindrome(x):
 
 
 
-
 def is_Palindrome(x):
     """
     :type x: int

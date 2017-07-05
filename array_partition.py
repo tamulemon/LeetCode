@@ -14,11 +14,10 @@ def arrayPairSum(nums):
     """
     nums.sort()
 
-    n = len(nums) // 2
     sum = 0
-    for i in range(0, len(nums), 2):
+    for i in range(0, len(nums) - 1, 2):
         sum = sum + nums[i]
     return sum
 
 if __name__ == "__main__":
-    print arrayPairSum([1,2,3,4])
+    print arrayPairSum([1,2,3,4, 7, 8])

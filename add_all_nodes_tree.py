@@ -66,7 +66,7 @@ def sumNodePreorder(tree):
         sumNodePreorder.total += tree.val
         helper(tree.left)
         helper(tree.right)
-        return sumNodePreorder.total
+        return
     helper(tree)
     return sumNodePreorder.total
 
